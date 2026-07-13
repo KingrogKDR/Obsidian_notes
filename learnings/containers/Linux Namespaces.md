@@ -1,6 +1,6 @@
 A global resource abstraction where it appears that every process within the namespace have their own isolated instance of that resource. Only the processes inside that namespace can see changes to that resource. 
 
-![[namespaces.png]]
+![Namespaces visualized](images/namespaces.png)
 
 Two critical behaviors of namespaces:
 - Inheritance: Every new process that is created is a part of its parent's namespace. We can assign different namespaces for specific resource categories of the child process using the `unshare --namespace_type process` command.
@@ -38,3 +38,7 @@ unshare --uts processA
 ```
 
 Then processA has a new UTS namespace for itself, but it's other resources depend on it's parent's namespace.
+
+## uid_map
+
+An important data structure that maps the user id of the namespace to the user id of the system

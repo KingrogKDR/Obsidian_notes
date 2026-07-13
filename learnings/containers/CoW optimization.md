@@ -1,6 +1,6 @@
 When a new process is created (for e.g in fork), the OS assigns read-only access to the parent's memory pages in the page tables of both the parent and the child.
 
-![[CoW.excalidraw.png]]
+![How CoW works](images/CoW.png)
 
 - This way the parent and the child both only have read permissions to those memory pages.
 - Now it waits for the `first write`. Whichever process does the first write, a page fault is detected for the process, a new memory page is allocated copying the contents of the original memory page and the modifying process is mapped to this copied page with read-write permissions.

@@ -16,7 +16,7 @@ Network Namespace
 
 - If a network namespace is bound to mount, even if every process exits, the network namespace still exists because the bind mount references it.
 
-```zsh
+```sh
 touch /tmp/netns
 mount --bind /proc/self/ns/net /tmp/netns
 ```

@@ -1,0 +1,13 @@
+{
+  "cssTheme": "Minimal",
+  "textFontFamily": "Comic Sans MS",
+  "monospaceFontFamily": "Bitstream Vera Sans Mono",
+  "baseFontSize": 24,
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "theme": "obsidian",
+  "showViewHeader": false,
+  "showRibbon": false,
+  "interfaceFontFamily": "Comic Sans MS",
+  "accentColor": "#f7f7f7"
+}

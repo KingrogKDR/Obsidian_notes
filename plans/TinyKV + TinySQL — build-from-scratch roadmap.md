@@ -11,16 +11,16 @@ Progress legend: `[ ]` not started · `[~]` in progress · `[x]` done
 
 **Aug 10 – Aug 21, 2026 (weeks 1–2)**
 
-- [~]Read protobuf language guide (proto3) — https://protobuf.dev/programming-guides/proto3/
-- [ ] Read Protocol Buffers in Go tutorial — https://protobuf.dev/getting-started/gotutorial/
-- [ ] Read gRPC Go quickstart — https://grpc.io/docs/languages/go/quickstart/
-- [ ] Read gRPC Go basics tutorial (RouteGuide) — https://grpc.io/docs/languages/go/basics/
-- [ ] Build a disposable `Echo` gRPC service end-to-end (own `.proto`, own client+server), then discard it
+- [X] Read protobuf language guide (proto3) — https://protobuf.dev/programming-guides/proto3/
+- [x] Read Protocol Buffers in Go tutorial — https://protobuf.dev/getting-started/gotutorial/
+- [x] Read gRPC Go quickstart — https://grpc.io/docs/languages/go/quickstart/
+- [x] Read gRPC Go basics tutorial (RouteGuide) — https://grpc.io/docs/languages/go/basics/
+- [x] Build a disposable `Echo` gRPC service end-to-end (own `.proto`, own client+server), then discard it
 - [ ] Read TiKV design overview (data storage)
 - [ ] Read PD design overview (scheduling)
 - [ ] Skim full TinyKV reading list, triage which sections map to which project — https://github.com/talent-plan/tinykv/blob/course/doc/reading_list.md
 - [ ] Read RocksDB Column Families wiki page for what a "real" CF implementation looks like
-- [ ] Scaffold blank repo structure (`cmd/`, `internal/storage/`, `internal/server/`, `internal/engineutil/`, `proto/`)
+- [x] Scaffold blank repo structure (`cmd/`, `internal/storage/`, `internal/server/`, `internal/engineutil/`, `proto/`)
 
 ---
 
@@ -28,11 +28,11 @@ Progress legend: `[ ]` not started · `[~]` in progress · `[x]` done
 
 **Aug 22 – Sep 11, 2026 (weeks 3–5)**
 
-- [ ] Write your own `.proto` for RawGet/RawPut/RawDelete/RawScan (design your own fields, don't copy)
-- [ ] Generate Go stubs, get bare gRPC server returning hardcoded responses
+- [x] Write your own `.proto` for RawGet/RawPut/RawDelete/RawScan (design your own fields, don't copy)
+- [x] Generate Go stubs, get bare gRPC server returning hardcoded responses
 - [ ] CF-prefix helper (`KeyWithCF` / reverse) + table-driven tests, including collision edge cases
-- [ ] Naive `Storage` interface (direct Get/Put/Delete/Scan)
-- [ ] `BadgerStorage`: Put, Delete, Get
+- [x] Naive `Storage` interface (direct Get/Put/zDelete/Scan)
+- [x] `BadgerStorage`: Put, Delete, Get
 - [ ] `BadgerStorage`: Scan with CF isolation + limit
 - [ ] Hand-written tests: missing key, overwrite, same key different CFs, scan ordering, scan limit
 - [ ] Refactor to `Write(batch)` + snapshot `Reader`

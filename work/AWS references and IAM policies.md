@@ -67,3 +67,4 @@ Understand exactly what your validator returns:
 Reference: [GetCallerIdentity API Reference](https://docs.aws.amazon.com/STS/latest/APIReference/API_GetCallerIdentity.html?utm_source=chatgpt.com) ([AWS Documentation](https://docs.aws.amazon.com/STS/latest/APIReference/API_GetCallerIdentity.html?utm_source=chatgpt.com "GetCallerIdentity - AWS Security Token Service"))
 
 These documents cover essentially everything your current AWS provider implementation relies on, without branching into unrelated AWS services.
+

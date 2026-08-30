@@ -1,6 +1,6 @@
 Flow:
 
-![[gcs_bucket.excalidraw.png | Ways for ingestion of cost data from GCP]]
+![Ways for ingestion of cost data from GCP](images/gcs_bucket.excalidraw.png)
 
 Finalized flow anchored to FOCUS export specificially:
 

@@ -1,6 +1,6 @@
 Flow:
 
-![[api_key_flow.excalidraw.png | How the api key is generated, validated and stored]]
+![How the api key is generated, validated and stored](images/api_key_flow.excalidraw.png)
 
 All management endpoints (create, list, revoke) require a JWT `Authorization: Bearer` header — the logged-in user in the UI.
 

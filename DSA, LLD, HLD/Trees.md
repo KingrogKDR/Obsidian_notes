@@ -1,4 +1,3 @@
-
 > Edge case: if root is null, we should return null, otherwise we will get null pointer exceptions
 # Invert Binary Trees
 

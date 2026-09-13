@@ -6,7 +6,7 @@ All management endpoints (create, list, revoke) require a JWT `Authorization: Be
 
 The upload endpoint uses `X-Api-Key` — the customer's backend script, not the UI's concern. But you can test it using curl (currently only single file upload works).
 
-Base URL: GATEWAY_BASE_URL
+Base URL: GATEWAY_BASE_URL = http://gateway-preview.backend.k8s.atomity.de
 
 ---
 

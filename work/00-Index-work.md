@@ -8,6 +8,7 @@
 - [[Frontend Handoff — Import & Sync APIs]]
 - [[API Key Endpoints — Frontend Reference]]
 - [[Azure Consent Callback — Frontend Handoff]]
+- [[Connections API Reference]]
 # AWS
 
 - [[AWS IAM Policy]]
@@ -17,9 +18,12 @@
 - [[GCP integration]]
 # Hetzner
 
-- [[Atomity – Hetzner Cloud Connector]]
-
-
+- [[Hetzner Connector — High-Level Design]]
+- [[Hetzner Api Reference For frontend]]
 # Feedback System
 
 - [[internal-reliability-testing-platform]]
+
+# Kubernetes
+
+- [[EKS]]

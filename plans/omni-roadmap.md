@@ -1,4 +1,3 @@
-# Omni Roadmap
 ### From a TinyKV-style store to a distributed memory layer for AI inference
 
 **Philosophy:** each phase should teach one hard concept in isolation, be demoable/writable-about on its own, and build toward the final claim — "Omni is a distributed KV store whose memory model doubles as an inference-serving cache layer."
